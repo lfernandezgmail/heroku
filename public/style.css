@@ -1,0 +1,134 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+header{
+ text-align: center; 
+ margin-bottom: 50px;
+}
+
+p {
+  max-width: 600px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: silver;
+  width: 100%;
+  max-width: 440px;
+  border-radius: 3px;
+  margin: auto;
+}
+
+input {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+span{
+  color: red;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  box-shadow: 2px 2px teal;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+#message{
+  width: 500px;
+  height: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#users{
+  width: 500px;
+  min-height: 30px;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1px solid silver;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+} 
+
+table{
+  border-collapse: collapse; 
+  margin:auto;
+}
+
+tbody tr{
+  cursor:pointer;
+  
+}
+tbody tr:hover{
+  background-color: aqua;
+}
+
+th,td{
+  border: 1px solid black;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+nav a{
+  background-color: silver;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  background-color: gray;
+}
+
+#message,#books,footer{
+ text-align:center; 
+}
+
+footer a{
+ text-decoration: underline; 
+}
+
